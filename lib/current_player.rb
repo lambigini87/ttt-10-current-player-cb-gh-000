@@ -7,3 +7,12 @@ counter = 0
     end
     return counter
 end
+
+def current_player()
+     if turn_count(board).even?
+       return "X"
+     else 
+       return "O"
+     end
+   
+end
