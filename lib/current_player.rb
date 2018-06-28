@@ -4,4 +4,5 @@ counter = 0
       if token == "X" or token == "O"
       counter += 1
     end
+    end
 end
